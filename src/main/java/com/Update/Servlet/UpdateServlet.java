@@ -31,7 +31,7 @@ public class UpdateServlet extends HttpServlet {
 			request.getRequestDispatcher("/list.jsp").forward(request, response);
 
 		} else {
-			request.getRequestDispatch	er("/welcome.jsp").forward(request, response);
+			request.getRequestDispatcher("/welcome.jsp").forward(request, response);
 		}
 
 	}
